@@ -1,3 +1,41 @@
 body{
-    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 40px;
+    margin-top: 250px;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.tometo-color{
+    color: tomato;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    background: linear-gradient(to right, #ff4b1f, #ff9068); 
+}
+.spece-down{
+    padding-bottom: 5%;
+    font-weight: 500;
+}
+.about-us{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
 }
